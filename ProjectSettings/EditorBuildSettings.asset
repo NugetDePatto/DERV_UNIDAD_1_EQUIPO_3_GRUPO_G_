@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cambio de escena/E3_fin.unity
     guid: 0af54c09c15e66e47bbcb677d6a57d45
+  - enabled: 1
+    path: Assets/Cambio de escena/E4_nose.unity
+    guid: 7fb6ae2b2931e5f4eb1a074fe0466809
   m_configObjects: {}

@@ -6,19 +6,32 @@ using UnityEngine.SceneManagement;
 
 public class CambioEscena : MonoBehaviour
 {
-    private void Update(){
+    private void Update()
+    {
         int escena_actual = SceneManager.GetActiveScene().buildIndex;
-        if(Input.GetKeyDown(KeyCode.P)){
-            if(escena_actual ==0){
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            if (escena_actual == 0)
+            {
                 CambioDeEscena(1);
-            }else if(escena_actual ==1){
+            }
+            else if (escena_actual == 1)
+            {
                 CambioDeEscena(2);
-            }else{
+            }
+            else if (escena_actual == 2)
+            {
+                CambioDeEscena(3);
+            }
+            else if (escena_actual == 3)
+            {
                 CambioDeEscena(0);
             }
+
         }
     }
-    public void CambioDeEscena(int index_escena_nueva){
+    public void CambioDeEscena(int index_escena_nueva)
+    {
         SceneManager.LoadScene(index_escena_nueva);
     }
 }

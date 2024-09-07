@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "DERV_UNIDAD_1_EQUIPO_3_GRUPO_G.sln"
+    "dotnet.defaultSolution": "DERV_UNIDAD_1_EQUIPO_3_GRUPO_G_.sln"
 }
